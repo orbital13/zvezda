@@ -171,17 +171,18 @@ body {
 	/*transform: translate(-10%, -10%);*/
 }
 .head p{
-	
+	padding: 0% 0% 2% 16%;
+	/*margin: 0% 0% 0% 0%;*/
 	z-index:2;
 	display: flex;
 	position: relative;
+	top: 2vh;
 	/*font-family: 'Panton Rust';*/
 	font-family: 'Rubik Black';
 	color: black;
-	text-shadow:  2px 3px 23px #F1ED2F;
-	font-size: 7vw;
-	top: 15px;
-	left: 6%;
+	text-shadow:  2px 3px 12px #F1ED2F;
+	font-size: 8vw;
+	
 	
 }
 .foot{
@@ -274,22 +275,20 @@ body {
 	position: sticky;
 	border: 1px solid #88E1F0;
 	z-index:8;
-	background: url("img/1.jpg");
-	background-repeat: no-repeat;
-	 background-size: 100vw 100vh;
+	background: url('img/1.jpg') no-repeat center center / cover;
 	width: 100vw;
 	height: 100vh;
 	border-radius: 30px;
 }
 .card2 {
-	scroll-snap-align: start;
+	
 	display: flex; 
 	position: sticky;
 	border: 1px solid #88E1F0;
 	z-index:2;
-	background: url("img/2.jpg");
-	background-repeat: no-repeat;
-	 background-size: 100vw 100vh;
+
+	background: url('img/2.jpg') no-repeat center center / cover;
+	
 	width: 100vw;
 	height: 100vh;
 	border-radius: 30px;
@@ -299,9 +298,7 @@ body {
 	position: sticky;
 	border: 1px solid #88E1F0;
 	z-index:2;
-	background: url("img/3.jpg");
-	background-repeat: no-repeat;
-	 background-size: 100vw 100vh;
+	background: url('img/3.jpg') no-repeat center center / cover;
 	width: 100vw;
 	height: 100vh;
 	border-radius: 20px;
@@ -311,9 +308,7 @@ body {
 	position: sticky;
 	border: 1px solid #88E1F0;
 	z-index:2;
-	background: url("img/tools.jpg");
-	background-repeat: no-repeat;
-	 background-size: 100vw 100vh;
+	background: url('img/tools.jpg') no-repeat center center / cover;
 	width: 100vw;
 	height: 100vh;
 	border-radius: 20px;
@@ -363,53 +358,64 @@ body {
 
 
 .card1-content p{
-	
+	padding: 17% 4vh 2vh 7%;
 	z-index :2;
 	
 	font-family: 'Rubik Black';
-	/*font-family: 'Panton Rust';*/
+	/*font-family: 'Panton Rust';
 	left: 8%;
 	top: 9vh;
+	
+	*/
+	
 	width: 80vw;
 	font-size: 4vh;
 	position: absolute;
 	text-align: center;
 	color: black;
-	text-shadow:  1px 1px 25px #EBEDA9;
+	text-shadow:  2px 3px 9px #EBEDA9;
 }
 .card2-content p {
 	
 	z-index:3;
 	font-family: 'Rubik Black';
-	/*font-family: 'Panton Rust';*/
-	
-	width: 98vw;
-	
-	left: 12%;
-	top: 5.5vh;
+	/*font-family: 'Panton Rust';
+	top: 9vw;
 	width: 80vw;
-	font-size: 5vh;
+	left: 12%;
+	white-space: nowrap;*/
+	width: 98vw;
+	padding: 12vh 1vh 1vh 0vh;
+	
+	
+	font-size: 8vw;
 	position: absolute;
 	text-align: center;
 	color: black;
-	text-shadow:  2px 3px 23px #EBEDA9;
+	text-shadow:  2px 3px 9px #EBEDA9;
 	
 }
 .card2-content ul {
 	
+	padding: 30% 4vw 3vw 15vw;
 	z-index:2;
 	font-family: 'Rubik Black';
-	font-weight: bold;
+	/*font-weight: bold;
+	left: 17vw;
+	top: 26vh;
 	line-height: 1.5;
+	*/
+	top: 5%;
 	
-	left: 14vw;
-	top: 14vh;
+	
+	
+	
 	width: 80vw;
-	font-size: 3.3vh;
+	font-size: 7vw;
 	position: absolute;
-	text-align: left;
-	color: #black;
-	text-shadow:  2px 3px 23px #EBEDA9;
+	
+	color: black;
+	text-shadow:  2px 3px 9px #EBEDA9;
 	
 	
 }
@@ -417,12 +423,15 @@ body {
 
 	z-index:1;
 	font-family: 'Rubik Black';
-	
-	
+	padding: 15% 1vh 10vh 8%;
+	/*
 	left: 7%;
-	top: 5%;
+	
+	*/
+	top: 2vh;
+	
 	width: 80vw;
-	font-size: 2.8vh;
+	font-size: 6.5vw;
 	position: absolute;
 	text-align: center;
 	color: black;
